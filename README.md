@@ -57,4 +57,5 @@ You can retrain the model by modifying the notebook and re-exporting `clf.pkl` a
 
 ```bash
 git clone https://github.com/shibadityadeb/Resume-Screening-Sample-Dataset-.git
-cd Resume-Screening-Sample-Dataset-
+cd Resume-Screening-System
+
