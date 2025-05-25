@@ -82,20 +82,20 @@ def main():
         st.markdown("### Predicted Category")
         st.success(category_name)
 
-        skills = extract_section(resume_text, 'Skills') or "Work in progress"
-        experience = extract_section(resume_text, 'Experience') or "Work in progress"
+        skills = extract_section(resume_text, 'Skills') or "Not found"
+        experience = extract_section(resume_text, 'Experience') or "Not found"
 
         with st.expander("Skills Section"):
             if skills != "Not found":
                 st.write(skills)
             else:
-                st.info("No Skills section found in the resume.")
+                st.info("Work in progress")
 
         with st.expander("Experience Section"):
             if experience != "Not found":
                 st.write(experience)
             else:
-                st.info("No Experience section found in the resume.")
+                st.info("Work in progress")
 
 if __name__ == '__main__':
     main()
