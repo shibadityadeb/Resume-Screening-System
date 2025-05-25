@@ -11,8 +11,7 @@ A machine learning-powered web application that **screens resumes** and predicts
 
 ## 🌐 Live Demo
 
-👉 **[Launch the App](https://resume-screeningapp.streamlit.app/#predicted-category)**  
-📦 **[GitHub Repository](https://github.com/shibadityadeb/Resume-Screening-Sample-Dataset-)**
+**[Launch the App](https://resume-screeningapp.streamlit.app/#predicted-category)**  
 
 ---
 
